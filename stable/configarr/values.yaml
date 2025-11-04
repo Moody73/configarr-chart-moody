@@ -12,6 +12,6 @@ persistence:
 
 env:
   TZ: Australia/Brisbane
-  PUID: "1000"
-  PGID: "100"
+  PUID: "568"
+  PGID: "568"
 
