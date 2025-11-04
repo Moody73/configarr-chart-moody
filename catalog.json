@@ -1,0 +1,10 @@
+{
+  "name": "configarr-catalog",
+  "description": "Custom Configarr Catalog",
+  "trains": {
+    "stable": {
+      "name": "Stable",
+      "description": "Stable Apps"
+    }
+  }
+}

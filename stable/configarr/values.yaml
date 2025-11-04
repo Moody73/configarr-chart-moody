@@ -1,0 +1,17 @@
+image:
+  repository: ghcr.io/raydak-labs/configarr
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  port: 8787
+
+persistence:
+  configsPath: "/mnt/metadata/ix-applications/releases"
+  dataPath: "/mnt/metadata/configarr"
+
+env:
+  TZ: Australia/Brisbane
+  PUID: "1000"
+  PGID: "100"
+
