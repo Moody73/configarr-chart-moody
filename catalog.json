@@ -1,10 +1,13 @@
 {
-  "name": "configarr-catalog",
-  "description": "Custom Configarr Catalog",
+  "metadata": {
+    "name": "configarr-chart-moody",
+    "type": "catalog",
+    "description": "Custom Configarr Catalog for TrueNAS SCALE"
+  },
   "trains": {
     "stable": {
       "name": "Stable",
-      "description": "Stable Apps"
+      "description": "Stable Applications"
     }
   }
 }
